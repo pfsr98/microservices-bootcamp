@@ -1,0 +1,18 @@
+[submodule "customer-service"]
+	path = customer-service
+	url = https://github.com/pfsr98/customer-service.git
+[submodule "bank-account-service"]
+	path = bank-account-service
+	url = https://github.com/pfsr98/bank-account-service.git
+[submodule "credit-service"]
+	path = credit-service
+	url = https://github.com/pfsr98/credit-service.git
+[submodule "movement-service"]
+	path = movement-service
+	url = https://github.com/pfsr98/movement-service.git
+[submodule "service-registry"]
+	path = service-registry
+	url = https://github.com/pfsr98/service-registry.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/pfsr98/api-gateway.git
