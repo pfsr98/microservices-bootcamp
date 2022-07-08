@@ -16,3 +16,9 @@
 [submodule "api-gateway"]
 	path = api-gateway
 	url = https://github.com/pfsr98/api-gateway.git
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/pfsr98/config-server.git
+[submodule "config-repo"]
+	path = config-repo
+	url = https://github.com/pfsr98/config-repo.git
