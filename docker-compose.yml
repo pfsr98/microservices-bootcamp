@@ -1,9 +1,5 @@
 version: '3'
 services:
-  mongo:
-    image: mongo
-    ports:
-      - 27017:27017
   config-server:
     image: config-server
     ports:
@@ -31,9 +27,7 @@ services:
     depends_on:
       - config-server
       - service-registry
-      - mongo
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/customer
       - CONFIG_SERVER_URI=http://config-server:8088
       - EUREKA_SERVER_URI=http://service-registry:8761/eureka
     ports:
