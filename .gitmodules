@@ -22,3 +22,6 @@
 [submodule "config-repo"]
 	path = config-repo
 	url = https://github.com/pfsr98/config-repo.git
+[submodule "yanki-service"]
+	path = yanki-service
+	url = https://github.com/pfsr98/yanki-service.git
